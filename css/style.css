@@ -1,0 +1,71 @@
+/* Estilo geral */
+body {
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Container principal */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  position: absolute; /* Keep absolute positioning */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 5px;
+  /*background-color: #fff;  Add background color */
+  background-image: url("../comida.jpg");
+  background-size: cover;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.262); /* Add box-shadow for slight shadow */
+}
+
+/* Conteúdo do container */
+.container .conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Cabeçalho */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #cccccc8b;
+  border-radius: 5%;
+}
+
+/* Formulário */
+.form-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.campo-formulario {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+select, button {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  background-color: #37b154; /* Optional: adjust button color here */
+  transition: background-color 0.2s ease-in-out;
+}
